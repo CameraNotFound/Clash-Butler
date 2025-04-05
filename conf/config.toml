@@ -6,11 +6,11 @@ fast_mode = false
 # 支持本地地址（绝对地址）/User/xxx/xx.yml
 # 支持单个订阅链接，ss://xxx
 subs = [
-"https://api.dingyueapi.win/api/v1/client/subscribe?token=7fff8a52b31e2f0f145717c73eb0191f"
-"https://sub.xfltd.bond/api/v1/client/subscribe?token=c58e37b673582eefc393cd42dd19a0fb"
-"https://www.super-plane.top/api/v1/client/subscribe?token=25e8255772f4adfb7545b01c1455cce7"
-"http://202.91.33.173:50050/api/v1/client/subscribe?token=e4add8e263324544504f850b6608f153"
-"https://dr1.opensub1.xyz/api/v1/client/subscribe?token=UDT1Hj9L1mg5Ob8vl82pZj9rMwl5lxdc"
+"https://api.dingyueapi.win/api/v1/client/subscribe?token=7fff8a52b31e2f0f145717c73eb0191f",
+"https://sub.xfltd.bond/api/v1/client/subscribe?token=c58e37b673582eefc393cd42dd19a0fb",
+"https://www.super-plane.top/api/v1/client/subscribe?token=25e8255772f4adfb7545b01c1455cce7",
+"http://202.91.33.173:50050/api/v1/client/subscribe?token=e4add8e263324544504f850b6608f153",
+"https://dr1.opensub1.xyz/api/v1/client/subscribe?token=UDT1Hj9L1mg5Ob8vl82pZj9rMwl5lxdc",
 ]
 
 # 是否重命名节点，打开后会使用 geoip 等方式进行代理真实 IP 和地理地址查询
