@@ -72,90 +72,13 @@ dns:
   - https://dns.alidns.com/dns-query
 proxies:
 - cipher: aes-256-cfb
-  name: 52.195.212.217_OpenAI
+  name: 52.40.170.193_OpenAI
+  obfs: plain
   password: amazonskr05
   port: 443
-  server: 52.195.212.217
-  type: ss
-- name: BR_São Paulo_Oracle Corporation_OpenAI1
-  network: ws
-  port: 80
-  server: 45.131.4.200
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2/?ed
-- name: BR_São Paulo_Oracle Corporation_OpenAI2
-  network: ws
-  port: 8080
-  server: 45.131.4.73
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /
-- flow: xtls-rprx-vision
-  name: CH_Zurich_Cloudflare, Inc.
-  network: tcp
-  port: 443
-  server: yapc-1.afshin.ir
-  servername: YAPC-1.afshin.ir
-  tls: true
-  type: vless
-  uuid: 7c317161-5cf8-4cbc-811a-d1297c41bb23
-- name: DE_Frankfurt am Main_Amazon Technologies Inc._OpenAI1
-  network: ws
-  port: 80
-  server: 45.131.5.182
-  servername: gozargah.validbv7996.ir
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2
-- name: DE_Frankfurt am Main_Amazon Technologies Inc._OpenAI2
-  network: ws
-  port: 80
-  server: 45.131.5.27
-  servername: gozargah.validbv7996.ir
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2
-- name: DE_Frankfurt am Main_Amazon Technologies Inc._OpenAI3
-  network: ws
-  port: 80
-  server: 45.131.5.206
-  servername: gozargah.validbv7996.ir
-  tls: false
-  type: vless
-  udp: true
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳@WangCai2
-- name: DE_Frankfurt am Main_Oracle Corporation_OpenAI
-  network: ws
-  port: 80
-  server: 45.131.5.164
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /
+  protocol: origin
+  server: 52.40.170.193
+  type: ssr
 - name: FR_Ivry-sur-Seine_Online S.A.S._OpenAI
   password: dongtaiwang.com
   port: 59967
@@ -163,21 +86,28 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- name: GB_London_Amazon Technologies Inc._OpenAI1
+- cipher: aes-256-cfb
+  name: JP_Tokyo_Amazon Technologies Inc._OpenAI
+  password: amazonskr05
+  port: 443
+  server: 52.195.212.217
+  type: ss
+- cipher: aes-256-cfb
+  name: SG_Singapore_Amazon Technologies Inc._OpenAI1
+  password: amazonskr05
+  port: 443
+  server: 13.212.77.19
+  type: ss
+- cipher: aes-256-cfb
+  name: SG_Singapore_Amazon Technologies Inc._OpenAI2
+  password: amazonskr05
+  port: 443
+  server: 13.212.199.43
+  type: ss
+- name: US_Portland_Amazon.com, Inc._OpenAI1
   network: ws
   port: 80
-  server: 45.131.4.113
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2/?ed=2560
-- name: GB_London_Amazon Technologies Inc._OpenAI2
-  network: ws
-  port: 80
-  server: 45.131.4.116
+  server: 45.131.4.178
   tls: false
   type: vless
   uuid: c5293efa-28f8-4a0f-8f34-541078970cee
@@ -185,10 +115,10 @@ proxies:
     headers:
       Host: gozargah.validbv7996.ir
     path: /Telegram🇨🇳 @MxlShare@WangCai2
-- name: HK_Hong Kong_Alibaba (US) Technology Co., Ltd._OpenAI
+- name: US_Portland_Amazon.com, Inc._OpenAI2
   network: ws
   port: 80
-  server: 45.131.5.151
+  server: 45.131.5.35
   servername: gozargah.validbv7996.ir
   tls: false
   type: vless
@@ -196,167 +126,19 @@ proxies:
   ws-opts:
     headers:
       Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2
+    path: /Telegram🇨🇳 @MxlShare@WangCai2/?ed=2560
 - cipher: aes-256-cfb
-  name: JP_Tokyo_Amazon Technologies Inc._OpenAI1
+  name: ❓_🇯🇵_💼_github.com/Ruk1ng001_
   password: amazonskr05
   port: 443
   server: 52.199.237.27
   type: ss
 - cipher: aes-256-cfb
-  name: JP_Tokyo_Amazon Technologies Inc._OpenAI2
+  name: ❓_🇸🇬_💼_github.com/Ruk1ng001_
   password: amazonskr05
   port: 443
-  server: 52.197.57.24
+  server: 13.229.48.116
   type: ss
-- name: SE_Stockholm_Oracle Corporation
-  network: ws
-  port: 80
-  server: 45.131.4.214
-  servername: gozargah.validbv7996.ir
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2/?ed=2560
-- cipher: aes-256-cfb
-  name: SG_Singapore_Amazon Technologies Inc._OpenAI
-  password: amazonskr05
-  port: 443
-  server: 13.229.210.217
-  type: ss
-- cipher: aes-256-cfb
-  name: SG_Singapore_Amazon.com, Inc.
-  password: amazonskr05
-  port: 443
-  server: 13.250.5.171
-  type: ss
-- name: US_Council Bluffs_Google LLC_OpenAI1
-  network: ws
-  port: 80
-  server: 45.131.5.145
-  servername: gozargah.validbv7996.ir
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2
-- name: US_Council Bluffs_Google LLC_OpenAI2
-  network: ws
-  port: 80
-  server: 45.131.5.119
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2/?ed=2560
-- name: US_Council Bluffs_Google LLC_OpenAI3
-  network: ws
-  port: 80
-  server: 45.131.4.228
-  servername: gozargah.validbv7996.ir
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2
-- name: US_Council Bluffs_Google LLC_OpenAI4
-  network: ws
-  port: 80
-  server: 45.131.4.126
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2/?ed
-- name: US_Portland_Amazon.com, Inc._OpenAI1
-  network: ws
-  port: 80
-  server: 45.131.4.188
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /
-- name: US_Portland_Amazon.com, Inc._OpenAI2
-  network: ws
-  port: 80
-  server: 45.131.5.194
-  servername: gozargah.validbv7996.ir
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare @WangCai2
-- name: US_San Jose_Oracle Corporation_OpenAI
-  network: ws
-  port: 80
-  server: 45.131.4.194
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2/?ed=2560
-- name: US_Sterling_Total Uptime Technologies_OpenAI1
-  network: ws
-  port: 80
-  server: 45.131.5.113
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram @WangCai2
-- name: US_Sterling_Total Uptime Technologies_OpenAI2
-  network: ws
-  port: 80
-  server: 45.131.4.187
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /
-- name: US_Sterling_Total Uptime Technologies_OpenAI3
-  network: ws
-  port: 80
-  server: 45.131.4.248
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /
-- name: US_Sterling_Total Uptime Technologies_OpenAI4
-  network: ws
-  port: 80
-  server: 45.131.4.210
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /
 proxy-groups:
 - name: PROXY
   type: select
@@ -374,34 +156,15 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - 52.195.212.217_OpenAI
-  - BR_São Paulo_Oracle Corporation_OpenAI1
-  - BR_São Paulo_Oracle Corporation_OpenAI2
-  - CH_Zurich_Cloudflare, Inc.
-  - DE_Frankfurt am Main_Amazon Technologies Inc._OpenAI1
-  - DE_Frankfurt am Main_Amazon Technologies Inc._OpenAI2
-  - DE_Frankfurt am Main_Amazon Technologies Inc._OpenAI3
-  - DE_Frankfurt am Main_Oracle Corporation_OpenAI
+  - 52.40.170.193_OpenAI
   - FR_Ivry-sur-Seine_Online S.A.S._OpenAI
-  - GB_London_Amazon Technologies Inc._OpenAI1
-  - GB_London_Amazon Technologies Inc._OpenAI2
-  - HK_Hong Kong_Alibaba (US) Technology Co., Ltd._OpenAI
-  - JP_Tokyo_Amazon Technologies Inc._OpenAI1
-  - JP_Tokyo_Amazon Technologies Inc._OpenAI2
-  - SE_Stockholm_Oracle Corporation
-  - SG_Singapore_Amazon Technologies Inc._OpenAI
-  - SG_Singapore_Amazon.com, Inc.
-  - US_Council Bluffs_Google LLC_OpenAI1
-  - US_Council Bluffs_Google LLC_OpenAI2
-  - US_Council Bluffs_Google LLC_OpenAI3
-  - US_Council Bluffs_Google LLC_OpenAI4
+  - JP_Tokyo_Amazon Technologies Inc._OpenAI
+  - SG_Singapore_Amazon Technologies Inc._OpenAI1
+  - SG_Singapore_Amazon Technologies Inc._OpenAI2
   - US_Portland_Amazon.com, Inc._OpenAI1
   - US_Portland_Amazon.com, Inc._OpenAI2
-  - US_San Jose_Oracle Corporation_OpenAI
-  - US_Sterling_Total Uptime Technologies_OpenAI1
-  - US_Sterling_Total Uptime Technologies_OpenAI2
-  - US_Sterling_Total Uptime Technologies_OpenAI3
-  - US_Sterling_Total Uptime Technologies_OpenAI4
+  - ❓_🇯🇵_💼_github.com/Ruk1ng001_
+  - ❓_🇸🇬_💼_github.com/Ruk1ng001_
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -418,7 +181,7 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - HK_Hong Kong_Alibaba (US) Technology Co., Ltd._OpenAI
+  - DIRECT
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
@@ -434,8 +197,7 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - JP_Tokyo_Amazon Technologies Inc._OpenAI1
-  - JP_Tokyo_Amazon Technologies Inc._OpenAI2
+  - JP_Tokyo_Amazon Technologies Inc._OpenAI
   filter: (?i)日|东京|大阪|JP|Japan|Tokyo|Osaka|Saitama
 - name: SG
   type: url-test
@@ -443,8 +205,8 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - SG_Singapore_Amazon Technologies Inc._OpenAI
-  - SG_Singapore_Amazon.com, Inc.
+  - SG_Singapore_Amazon Technologies Inc._OpenAI1
+  - SG_Singapore_Amazon Technologies Inc._OpenAI2
   filter: (?i)新|狮城|SG|Singapore
 - name: US
   type: url-test
@@ -452,18 +214,8 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - HK_Hong Kong_Alibaba (US) Technology Co., Ltd._OpenAI
-  - US_Council Bluffs_Google LLC_OpenAI1
-  - US_Council Bluffs_Google LLC_OpenAI2
-  - US_Council Bluffs_Google LLC_OpenAI3
-  - US_Council Bluffs_Google LLC_OpenAI4
   - US_Portland_Amazon.com, Inc._OpenAI1
   - US_Portland_Amazon.com, Inc._OpenAI2
-  - US_San Jose_Oracle Corporation_OpenAI
-  - US_Sterling_Total Uptime Technologies_OpenAI1
-  - US_Sterling_Total Uptime Technologies_OpenAI2
-  - US_Sterling_Total Uptime Technologies_OpenAI3
-  - US_Sterling_Total Uptime Technologies_OpenAI4
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
   type: url-test
@@ -471,31 +223,13 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - 52.195.212.217_OpenAI
-  - BR_São Paulo_Oracle Corporation_OpenAI1
-  - BR_São Paulo_Oracle Corporation_OpenAI2
-  - DE_Frankfurt am Main_Amazon Technologies Inc._OpenAI1
-  - DE_Frankfurt am Main_Amazon Technologies Inc._OpenAI2
-  - DE_Frankfurt am Main_Amazon Technologies Inc._OpenAI3
-  - DE_Frankfurt am Main_Oracle Corporation_OpenAI
+  - 52.40.170.193_OpenAI
   - FR_Ivry-sur-Seine_Online S.A.S._OpenAI
-  - GB_London_Amazon Technologies Inc._OpenAI1
-  - GB_London_Amazon Technologies Inc._OpenAI2
-  - HK_Hong Kong_Alibaba (US) Technology Co., Ltd._OpenAI
-  - JP_Tokyo_Amazon Technologies Inc._OpenAI1
-  - JP_Tokyo_Amazon Technologies Inc._OpenAI2
-  - SG_Singapore_Amazon Technologies Inc._OpenAI
-  - US_Council Bluffs_Google LLC_OpenAI1
-  - US_Council Bluffs_Google LLC_OpenAI2
-  - US_Council Bluffs_Google LLC_OpenAI3
-  - US_Council Bluffs_Google LLC_OpenAI4
+  - JP_Tokyo_Amazon Technologies Inc._OpenAI
+  - SG_Singapore_Amazon Technologies Inc._OpenAI1
+  - SG_Singapore_Amazon Technologies Inc._OpenAI2
   - US_Portland_Amazon.com, Inc._OpenAI1
   - US_Portland_Amazon.com, Inc._OpenAI2
-  - US_San Jose_Oracle Corporation_OpenAI
-  - US_Sterling_Total Uptime Technologies_OpenAI1
-  - US_Sterling_Total Uptime Technologies_OpenAI2
-  - US_Sterling_Total Uptime Technologies_OpenAI3
-  - US_Sterling_Total Uptime Technologies_OpenAI4
   filter: (?i)OpenAI
 - name: Claude
   type: url-test
